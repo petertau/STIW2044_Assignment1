@@ -29,7 +29,7 @@ class MovieDetail extends StatelessWidget {
                           alignment: Alignment.center,
                           child: Image.network(
                             snapshot.data!.poster,
-                            width: 200,
+                            width: 180,
                           ),
                         ),
                         Text(snapshot.data!.plot, textAlign: TextAlign.justify),
